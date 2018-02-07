@@ -13,6 +13,6 @@ public class App
        EulerProblem2 ep2 = new EulerProblem2();
        System.out.println(ep2.solve());
        EulerProblem3 ep3 = new EulerProblem3();
-       System.out.println("Max: " + ep3.solve());
+       System.out.println(ep3.solve());
     }
 }

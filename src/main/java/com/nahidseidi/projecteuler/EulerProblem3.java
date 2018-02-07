@@ -1,29 +1,31 @@
 package com.nahidseidi.projecteuler;
 
-import java.util.ArrayList;
-import java.util.List;
+import java.util.HashSet;
+import java.util.Set;
 
 public class EulerProblem3 implements IEulerProblem {
-   public int solve() {
-      int max = 0;
-      List<Integer> factors = getPrimeFactors(12);
-      for (int factor : factors) {
+   public long solve() {
+      long max = 0;
+      Set<Long> factors = getPrimeFactors(600851475143L);
+      for (long factor : factors) {
          if (factor > max) 
             max = factor;
       }
       return max;
    }
-
-   public List<Integer> getPrimeFactors(long number) {
-      List<Integer> factors = new ArrayList<Integer>();
+   
+   public Set<Long> getPrimeFactors(long number) {
+      Set<Long> factors = new HashSet<Long>();
       long savedNumber = number;
-      int index = 2;
-      while (index < savedNumber) {
+      long index = 2;
+      while (index < savedNumber/2) {
          while (number % index == 0) {
             factors.add(index);
             number /= index;
          }
          index++;
+         if (index > number)
+            break;
       }
       return factors;
    }

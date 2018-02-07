@@ -4,12 +4,12 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class EulerProblem2 implements IEulerProblem {
-   public int solve() {
-      List<Integer> fibonacci = new ArrayList<Integer>();
-      fibonacci.add(1);
-      fibonacci.add(2);
+   public long solve() {
+      List<Long> fibonacci = new ArrayList<Long>();
+      fibonacci.add(1L);
+      fibonacci.add(2L);
       int index = 0;
-      int sum = 0;
+      long sum = 0;
          while (fibonacci.get(index) <= 4000000) {
             fibonacci.add(fibonacci.get(index) + fibonacci.get(index + 1));
             index++;
