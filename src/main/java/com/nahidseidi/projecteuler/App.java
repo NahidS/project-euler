@@ -16,5 +16,7 @@ public class App
        System.out.println(ep3.solve());
        EulerProblem4 ep4 = new EulerProblem4();
        System.out.println(ep4.solve());
+       EulerProblem5 ep5 = new EulerProblem5();
+       System.out.println(ep5.solve());
     }
 }
