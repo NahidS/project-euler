@@ -1,5 +1,9 @@
 *.class
 target/
+target/classes/com/nahidseidi/projecteuler/App.class
+
+*.properties
+target/classes/META-INF/maven/com.nahidseidi/projecteuler/pom.properties
 
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
@@ -81,5 +85,3 @@ local.properties
 !.elasticbeanstalk/*.cfg.yml
 !.elasticbeanstalk/*.global.yml
 /.apt_generated/
-
-/App.class
