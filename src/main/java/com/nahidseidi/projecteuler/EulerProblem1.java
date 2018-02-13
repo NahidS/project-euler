@@ -1,6 +1,7 @@
 package com.nahidseidi.projecteuler;
 
 public class EulerProblem1 implements IEulerProblem {
+   
    public long solve() {
       long sum = 0;
       for (long i = 0; i < 1000; i++) {

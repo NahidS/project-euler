@@ -4,6 +4,7 @@ import java.util.HashSet;
 import java.util.Set;
 
 public class EulerProblem3 implements IEulerProblem {
+   
    public long solve() {
       long max = 0;
       Set<Long> factors = getPrimeFactors(600851475143L);

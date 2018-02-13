@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class EulerProblem2 implements IEulerProblem {
+   
    public long solve() {
       List<Long> fibonacci = new ArrayList<Long>();
       fibonacci.add(1L);

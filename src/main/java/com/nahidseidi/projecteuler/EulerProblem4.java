@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class EulerProblem4 implements IEulerProblem {
+   
    public long solve() {
       String originalNumber;
       String reversedNumber;
