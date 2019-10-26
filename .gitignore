@@ -1,6 +1,20 @@
 *.class
 target/
-target/classes/com/nahidseidi/projecteuler/App.class
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
 
 *.properties
 target/classes/META-INF/maven/com.nahidseidi/projecteuler/pom.properties
