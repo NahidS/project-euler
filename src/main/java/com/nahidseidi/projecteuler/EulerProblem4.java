@@ -5,7 +5,7 @@ import java.util.List;
 
 public class EulerProblem4 implements IEulerProblem {
    
-   public long solve() {
+   public Object solve() {
       String originalNumber;
       String reversedNumber;
       List<Long> palindromeNumbers = new ArrayList<Long>();

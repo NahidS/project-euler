@@ -8,7 +8,7 @@ public class App
 {
     public static void main( String[] args )
     {
-       EulerProblem1 ep1 = new EulerProblem1();
+       /*EulerProblem1 ep1 = new EulerProblem1();
        System.out.println(ep1.solve());
        EulerProblem2 ep2 = new EulerProblem2();
        System.out.println(ep2.solve());
@@ -21,6 +21,8 @@ public class App
        EulerProblem6 ep6 = new EulerProblem6();
        System.out.println(ep6.solve());
        EulerProblem7 ep7 = new EulerProblem7();
-       System.out.println(ep7.solve());
+       System.out.println(ep7.solve());*/
+       EulerProblem8 ep8 = new EulerProblem8();
+        System.out.println(ep8.solve());
     }
 }

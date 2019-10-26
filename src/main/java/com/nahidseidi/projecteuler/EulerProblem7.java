@@ -5,7 +5,7 @@ import java.util.List;
 
 public class EulerProblem7 implements IEulerProblem {
 
-   public long solve() {
+   public Object solve() {
       List<Long> primes = new ArrayList<Long>();
       long number = 2;
       while (primes.size() < 10001) {

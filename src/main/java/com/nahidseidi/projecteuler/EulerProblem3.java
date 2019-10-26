@@ -5,7 +5,7 @@ import java.util.Set;
 
 public class EulerProblem3 implements IEulerProblem {
    
-   public long solve() {
+   public Object solve() {
       long max = 0;
       Set<Long> factors = getPrimeFactors(600851475143L);
       for (long factor : factors) {

@@ -2,7 +2,7 @@ package com.nahidseidi.projecteuler;
 
 public class EulerProblem5 implements IEulerProblem {
 
-   public long solve() {
+   public Object solve() {
       long number = 2520;
       for (int index = 1; index <= 20; index++) {
          if (number % index != 0) {
